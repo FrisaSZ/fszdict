@@ -1,0 +1,46 @@
+{
+  "word": "quake",
+  "pronounce_en": "[kweɪk]",
+  "pronounce_us": "[kwek]",
+  "short-list": [
+    "vi. 震动；颤抖",
+    "n. 地震；颤抖"
+  ],
+  "rank": "CET4 TEM4",
+  "inflection": "(\n                                                                                                                                                                            quaking,\n                                                                                                                                                                                                                            quaked,\n                                                                                                                                                                            \t\t\t\t\t\t\t\t\t\t\t\tquakes\n                                                                                                                                                                        )",
+  "long-list": [
+    {
+      "collins-order": "1. ",
+      "gram-grp": "N-COUNT",
+      "major-trans": "\n    \t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tN-COUNT\n    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\tA quake is the same as an . 地震\n    \t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t                                                                        \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t[非正式]\n    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t                                                                                                                                                                                                                                                                                        \t\t\t\t\t\t\t\t\t\t\n                        \t\t\t\t\t\t\t\t\t\t                                                                    \t\t\t\t\t\t\t\t\t\t\t\t\t                                                                ",
+      "examples": [
+        {
+          "en": " The quake destroyed mud buildings in many remote villages. ",
+          "ch": "地震摧毁了许多偏远村庄的泥土房屋。"
+        }
+      ]
+    },
+    {
+      "collins-order": "2. ",
+      "gram-grp": "V-I",
+      "major-trans": "\n    \t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tV-I\n    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\tIf you quake, you shake, usually because you are very afraid. (常指因害怕而) 发抖\n    \t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t                                                                        \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t                                                                                                                                                                                                                                                                                        \t\t\t\t\t\t\t\t\t\t\n                        \t\t\t\t\t\t\t\t\t\t                                                                    \t\t\t\t\t\t\t\t\t\t\t\t\t                                                                ",
+      "examples": [
+        {
+          "en": " I just stood there quaking with fear. ",
+          "ch": "我站在那儿，吓得发抖。"
+        }
+      ]
+    },
+    {
+      "collins-order": "3. ",
+      "gram-grp": "PHRASE",
+      "major-trans": "\n    \t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPHRASE\n    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\tIf you are quaking in your boots or quaking in your shoes, you feel very nervous or afraid, and may be feeling slightly weak as a result. (因紧张、害怕而) 发抖\n    \t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t                                                                        \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t                                                                                                                                                                                                                                                                                        \t\t\t\t\t\t\t\t\t\t\n                        \t\t\t\t\t\t\t\t\t\t                                                                    \t\t\t\t\t\t\t\t\t\t\t\t\t                                                                ",
+      "examples": [
+        {
+          "en": " If you stand up straight, you'll give an impression of self-confidence, even if you're quaking in your boots. ",
+          "ch": "只要你站直了，就会给人一种自信的印象，哪怕你正紧张得发抖。"
+        }
+      ]
+    }
+  ]
+}

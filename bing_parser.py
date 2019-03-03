@@ -51,25 +51,28 @@ def bing_html_parser(html):
                     li_data['type'] = 'unk'
                 li_data['row-datas'] = []
                 def_rows = li.find_class('def_row')
-                for def_row in def_rows:
-                    row_data = {}
-                    if li_data['type'] == 'sense':
+                if li_data['type'] == 'sense':
+                    for def_row in def_rows:
+                        row_data = {}
                         se_d = def_row.find_class('se_d')
                         gram_grp = def_row.find_class('au_def')
                         sen_com = def_row.find_class('sen_com')
                         bil = def_row.find_class('bil')
                         val = def_row.find_class('val')
-                        row_data['sens-index'] = to_text(se_d)
+                        row_data['sen-idx'] = to_text(se_d)
                         row_data['gram-grp'] = to_text(gram_grp)
                         row_data['sen-com'] = to_text(sen_com)
                         row_data['bil'] = to_text(bil)
                         row_data['val'] = to_text(val)
-                    elif li_data['type'] == 'example':
+                        li_data['row-datas'].append(row_data)
+                elif li_data['type'] == 'example':
+                    for def_row in def_rows:
+                        row_data = {}
                         val_ex = def_row.find_class('val_ex')
                         bil_ex = def_row.find_class('bil_ex')
                         row_data['val_ex'] = to_text(val_ex)
                         row_data['bil_ex'] = to_text(bil_ex)
-                    li_data['row-datas'].append(row_data)
+                        li_data['row-datas'].append(row_data)
                 seg_data['li-datas'].append(li_data)
             word_data['long-def'].append(seg_data)
     except IndexError:
