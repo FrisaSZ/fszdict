@@ -12,18 +12,18 @@ class Downloader:
         self.num_retries = None
         self.timeout = timeout
 
-    def __call__(self, url, params, num_retries=2):
+    def __call__(self, url, num_retries=2):
         self.num_retries = num_retries
         self.throttle.wait(url)
         proxies = choice(self.proxies) if self.proxies else None
         headers = {'User-Agent': self.user_agent}
-        result = self.download(url, params, headers, proxies)
+        result = self.download(url, headers, proxies)
         return result['html']
 
-    def download(self, url, params, headers, proxies):
+    def download(self, url, headers, proxies):
         try:
-            resp = requests.get(url, params=params, headers=headers,
-                                proxies=proxies, timeout=self.timeout)
+            resp = requests.get(url, headers=headers, proxies=proxies, timeout=self.timeout)
+            print(F'downloading {resp.url}')
             html = resp.text
             if resp.status_code >= 400:
                 print('Download error:', resp.text)
@@ -31,7 +31,7 @@ class Downloader:
                 if self.num_retries and 500 <= resp.status_code < 600:
                     # recursively retry 5xx HTTP errors
                     self.num_retries -= 1
-                    return self.download(url, params, headers, proxies)
+                    return self.download(url, headers, proxies)
         except requests.exceptions.RequestException as e:
             print('Download error:', e)
             return {'html': None, 'code': 500}
