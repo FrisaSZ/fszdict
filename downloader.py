@@ -23,7 +23,7 @@ class Downloader:
     def download(self, url, headers, proxies):
         try:
             resp = requests.get(url, headers=headers, proxies=proxies, timeout=self.timeout)
-            print(F'downloading {resp.url}')
+            # print(F'downloading {resp.url}')
             html = resp.text
             if resp.status_code >= 400:
                 print('Download error:', resp.text)

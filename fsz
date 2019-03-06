@@ -1,0 +1,15 @@
+#!/home/houjx/miniconda3/bin/python3
+
+import sys
+import time
+import json
+from downloader import Downloader
+from html_parsers import parser_youdao
+
+word = ' '.join(sys.argv[1:])
+url = 'http://dict.youdao.com/search?q='
+parser = parser_youdao
+dler = Downloader()
+html = dler(url + word, word)
+word_data = parser(html)
+print(json.dumps(word_data, ensure_ascii=False, indent=4))
